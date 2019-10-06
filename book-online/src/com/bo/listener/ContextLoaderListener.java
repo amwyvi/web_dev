@@ -33,28 +33,30 @@ public class ContextLoaderListener implements ServletContextListener {
         //创建并生成用户数据列表
         List<User> userList = new ArrayList<>(3);
         User[] users = {
-                new User(1, "aaa@qq.com", "698d51a19d8a121ce581499d7b701668", "开到荼蘼", "user1.jpg", "江苏南京", LocalDate.of(2018, 6, 11)),
-                new User(2, "bbb@qq.com", "698d51a19d8a121ce581499d7b701668", "小幸运", "user2.jpg", "浙江杭州", LocalDate.of(2019, 2, 18)),
-                new User(3, "ccc@qq.com", "698d51a19d8a121ce581499d7b701668", "往后余生", "user3.jpg", "湖北武汉", LocalDate.of(2019, 8, 19))
+                new User(1, "aaa@qq.com", "698d51a19d8a121ce581499d7b701668", "孤芳自赏", "tx1.jpg", "北京", LocalDate.of(2001, 4, 11)),
+                new User(2, "bbb@qq.com", "698d51a19d8a121ce581499d7b701668", "暗示分离", "tx2.jpg", "江苏", LocalDate.of(1999, 11, 22)),
+                new User(3, "ccc@qq.com", "698d51a19d8a121ce581499d7b701668", "记念", "tx3.jpg", "南京", LocalDate.of(2010, 8, 19))
         };
         userList = Arrays.asList(users);
 
         //创建并生成图书数据列表
         List<Book> bookList = new ArrayList<>(10);
         Book[] books = {
-                new Book(1, "漫长的婚约", "book1.jpg", "[法] 塞巴斯蒂安"),
-                new Book(2, "庸人自扰", "book2.jpg", "[英]戴伦•麦加维"),
-                new Book(3, "绿山墙的安妮", "book3.jpg", "[美]理查德·耶茨"),
-                new Book(4, "敌人与邻居", "book4.jpg", "[英]伊恩·布莱克"),
-                new Book(5, "哀伤纪", "book5.jpg", "钟晓阳"),
-                new Book(6, "漫长的婚约", "book1.jpg", "[法] 塞巴斯蒂安"),
-                new Book(7, "庸人自扰", "book2.jpg", "[英]戴伦•麦加维"),
-                new Book(8, "绿山墙的安妮", "book3.jpg", "[美]理查德·耶茨"),
-                new Book(9, "敌人与邻居", "book4.jpg", "[英]伊恩·布莱克"),
-                new Book(10, "哀伤纪", "book5.jpg", "钟晓阳"),
-                new Book(11, "漫长的婚约", "book1.jpg", "[法] 塞巴斯蒂安"),
-                new Book(12, "庸人自扰", "book2.jpg", "[英]戴伦•麦加维")
-
+                new Book(1, "何典", "book01.jpg", "[中] 刘半农"),
+                new Book(2, "戏年", "book02.jpg", "[中] 葛亮"),
+                new Book(3, "和我们的女儿谈话", "book03.jpg", "[中] 王朔"),
+                new Book(4, "我是猫", "book04.jpg", "[外] 夏目漱石"),
+                new Book(5, "华丽的丧服", "book05.jpg", "[外] 土屋隆夫"),
+                new Book(6, "庭守之犬", "book06.jpg", "[外] 岩井俊二"),
+                new Book(7, "了不起的盖茨比", "book07.jpg", "[外] F. S.菲茨杰拉德"),
+                new Book(8, "起风了", "book08.jpg", "[外] 堀辰雄"),
+                new Book(9, "何典", "book01.jpg", "[中] 刘半农"),
+                new Book(10, "戏年", "book02.jpg", "[中] 葛亮"),
+                new Book(11, "和我们的女儿谈话", "book03.jpg", "[中] 王朔"),
+                new Book(12, "我是猫", "book04.jpg", "[外] 夏目漱石"),
+                new Book(13, "华丽的丧服", "book05.jpg", "[外] 土屋隆夫"),
+                new Book(14, "庭守之犬", "book06.jpg", "[外] 岩井俊二"),
+                new Book(15, "了不起的盖茨比", "book07.jpg", "[外] F. S.菲茨杰拉德")
         };
         bookList = Arrays.asList(books);
 
